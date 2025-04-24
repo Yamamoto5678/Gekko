@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мир Гекконов</title>
+<link rel="stylesheet" href="gekko2.css">
+</head>
+<body>
+<header>
+    <h1>Мир Гекконов</h1>
+    <p>Погрузись в удивительный мир ящериц</p>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙 Тема</button>
+</header>
+<div class="container">
+    <div class="flip-card">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+        <img src="геккон-616052384.jpg" alt="Геккон на стене">
+        </div>
+        <div class="flip-card-back">
+        <h3>Липкие лапки</h3>
+        <p>Гекконы могут бегать по потолку благодаря микроскопическим волоскам на лапах!</p>
+        <a class="btn" href="https://ru.wikipedia.org/wiki/Геккон" target="_blank">Узнать больше</a>
+        </div>
+    </div>
+    </div>
+    <div class="flip-card">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+        <img src="th-4142485408.jpg" alt="Гребенчатый геккон">
+        </div>
+        <div class="flip-card-back">
+        <h3>Гребенчатый геккон</h3>
+        <p>Один из самых популярных видов для содержания дома. Очень дружелюбный!</p>
+        <a class="btn" href="https://ru.wikipedia.org/wiki/Гребенчатый_геккон" target="_blank">Узнать больше</a>
+        </div>
+    </div>
+    </div>
+</div>
+<script>
+    function toggleTheme() {
+    document.body.classList.toggle('dark');
+    }
+</script>
+</body>
+</html>
