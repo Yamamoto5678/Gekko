@@ -138,3 +138,10 @@
         height: 300px;
     }
     }
+   footer {
+    background-color: var(--primary);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    }
